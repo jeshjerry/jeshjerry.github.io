@@ -1,3 +1,7 @@
+import React from 'react';
+import { MapContainer, TileLayer, Circle, Popup } from 'react-leaflet';
+import 'leaflet/dist/leaflet.css';
+
 const MapView = ({ data }) => {
   return (
     <MapContainer center={[20, 0]} zoom={2} style={{ height: "600px", width: "100%" }}>
